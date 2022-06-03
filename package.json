@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A MongoDB Ethereum address validator for Joi",
   "main": "index.js",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
   "scripts": {
     "test": "mocha -A"
   },
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/HaiDang666/joi-ethereum-address/issues"
   },
-  "homepage": "https://github.com/HaiDang666/joi-ethereum-address#readme"
+  "homepage": "https://github.com/HaiDang666/joi-ethereum-address#readme",
+  "publishConfig": {
+    "tag": "latest"
+  }
 }
