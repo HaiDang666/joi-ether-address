@@ -1,23 +1,22 @@
 
-# joi-objectid
+# joi-ethereum-address
 
-A MongoDB ObjectId validator for Joi.
+A fork from [joi-objectid](https://github.com/mkg20001/joi-objectid)   
 
-[![Build Status](https://travis-ci.org/mkg20001/joi-objectid.svg?branch=master)](https://travis-ci.org/mkg20001/joi-objectid)
+A MongoDB Ethereum address validator for Joi.   
 
 ## use
 
-`joi-objectid` validates that the value is an alphanumeric string of 24 characters
-in length.
+`joi-ether-address` validates that the value is an address on ethereum block chain
 
 It's used just like you'd use any other `Joi` type.
 
 ```js
 const Joi = require('@hapi/joi')
-Joi.objectId = require('joi-objectid')(Joi)
+Joi.ethereumAddress = require('joi-ethereum-address')(Joi)
 
 const schema = Joi.object({
-  id: Joi.objectId(),
+  id: Joi.ethereumAddress(),
   name: Joi.string().max(100),
   date: Joi.date()
 })
@@ -27,7 +26,7 @@ const schema = Joi.object({
 ### Installation
 
 ```
-npm install joi-objectid --save
+npm install joi-ethereum-address --save
 ```
 
 ### Development
@@ -38,4 +37,4 @@ npm install joi-objectid --save
 
 ## License
 
-[MIT](https://github.com/mkg20001/joi-objectid/blob/master/LICENSE)
+[MIT](https://github.com/haidang666/joi-ethereum-address/blob/master/LICENSE)

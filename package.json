@@ -1,23 +1,23 @@
 {
-  "name": "joi-objectid",
-  "version": "4.0.2",
-  "description": "A MongoDB ObjectId validator for Joi",
+  "name": "joi-ethereum-address",
+  "version": "1.0.0",
+  "description": "A MongoDB Ethereum address validator for Joi",
   "main": "index.js",
   "scripts": {
     "test": "mocha -A"
   },
-  "author": "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
+  "author": "Haidang666 <hdcompany123@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "joi": "^17.4.2",
-    "mocha": "^9.1.1"
+    "joi": "^17.6.0",
+    "mocha": "^10.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkg20001/joi-objectid.git"
+    "url": "git+https://github.com/HaiDang666/joi-ethereum-address"
   },
   "bugs": {
-    "url": "https://github.com/mkg20001/joi-objectid/issues"
+    "url": "https://github.com/HaiDang666/joi-ethereum-address/issues"
   },
-  "homepage": "https://github.com/mkg20001/joi-objectid#readme"
+  "homepage": "https://github.com/HaiDang666/joi-ethereum-address#readme"
 }
